@@ -1,0 +1,20 @@
+defaults:
+  - hp: spect
+  
+  # seism or spect
+  - data: spect
+
+# Set output directory
+res_dir:  "/Users/alex/Desktop/Projects/Kenya/data/ML/species/"
+log_dir_base: "${data.dset_base}_${data.mode}_${data.dset_split}_${data.model}_pretrained_${data.pretrained}_lr${hp.lr}_epochs${hp.epochs}_patience${hp.patience}_lossweights${hp.loss_weights}"
+
+hydra:
+  run:
+    dir: ${res_dir}/${log_dir_base}
+  sweep:
+    dir: ${res_dir}/${log_dir_base}
+    subdir: ${hp.rng_seed}
+# General stuff
+device: "cpu"
+
+load_images: False

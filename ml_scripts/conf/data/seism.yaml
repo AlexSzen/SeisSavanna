@@ -1,0 +1,9 @@
+# @package _group_
+data_dir: "/Users/alex/Desktop/Projects/Kenya/data/ML/species/"
+dset_base: "dset_allspec_40"
+dset_name: "${data.dset_base}_chunks_clean.nc"
+dset_split: "station_time"
+binary: True
+mode: "seismograms"
+model: "mlp"
+pretrained: False

@@ -1,0 +1,15 @@
+# @package _group_
+lr: 0.0001
+epochs: 10
+batch_size: 32
+l2reg: 0.1
+scheduler:
+    step_size:  10
+    gamma: 0.8
+
+patience: 20
+
+loss_weights: True
+
+rng_seed: 0
+

@@ -4,7 +4,7 @@ This repo reproduces the species classification results from the paper Seismic s
 
 ## Download the data 
 
-You can download the datasets on [dropbox][https://www.dropbox.com/sh/wfuuecabiy0boeb/AACrNYoMv-4v55XzKuFay2Fka?dl=0]. There are three main folders:
+You can download the datasets on [dropbox](https://www.dropbox.com/sh/wfuuecabiy0boeb/AACrNYoMv-4v55XzKuFay2Fka?dl=0). There are three main folders:
 - 'dset_allspec_150' containing animal signals from 10 different species, up to 150m distance. This is the dataset we are using in the codes included here.
 - 'dset_elbeh_150' containing elephant signals up to 150m distance, annotated either for running or walking.
 - 'dset_rumbles_60' containing elephant rumbles and elephant locomotion up to 60m distance.

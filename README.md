@@ -1,4 +1,4 @@
-# kenya
+# SeisSavanna
 
 This repo reproduces the species classification results from the paper Seismic savanna: Machine learning for classifying wildlife and behaviours using ground-based vibration field recordings.
 

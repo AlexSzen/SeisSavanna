@@ -1,6 +1,6 @@
 # SeisSavanna
 
-This repo reproduces the species classification results from the paper Seismic savanna: Machine learning for classifying wildlife and behaviours using ground-based vibration field recordings.
+This repo reproduces the species classification results from the [paper](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.242) Seismic savanna: Machine learning for classifying wildlife and behaviours using ground-based vibration field recordings. 
 
 ## Download the data 
 
@@ -8,6 +8,8 @@ You can download the datasets on [dropbox](https://www.dropbox.com/sh/p1swf94hs2
 - 'dset_allspec_150' containing animal signals from 10 different species, up to 150m distance. This is the dataset we are using in the codes included here.
 - 'dset_elbeh_150' containing elephant signals up to 150m distance, annotated either for running or walking.
 - 'dset_rumbles_60' containing elephant rumbles and elephant locomotion up to 60m distance.
+
+Please cite the paper if you're using the datasets.
 
 ## How to work with Docker
 
